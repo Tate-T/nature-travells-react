@@ -1,21 +1,23 @@
 import { Header } from '../../components/Header/Header.jsx';
 import { Footer } from '../../components/Footer/Footer.jsx';
+import { Container } from "../../components/Container/Container.jsx";
 
 export const Traveller = () => {
     return (
         <div className='Traveller'>
-            <Header/>
+            <Header />
             <section>
-                <div>
-                    <img src="" alt="" />
+                <Container>
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <img src="" alt="" />
+                        <div>
+                            <h4></h4>
+                            <p></p>
+                        </div>
                     </div>
-                </div>
-                <h2>Статті Мандрівника</h2>
-                <ul>
-                    {/* <li>
+                    <h2>Статті Мандрівника</h2>
+                    <ul>
+                        {/* <li>
                         <img src="" alt="" />
                         <div>
                             <p></p>
@@ -29,10 +31,12 @@ export const Traveller = () => {
                             </div>
                     </li>
                     li template */}
-                </ul>
-                <button>Показати ще</button>
+                    </ul>
+                    <button>Показати ще</button>
+                </Container>
+
             </section>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

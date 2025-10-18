@@ -1,12 +1,14 @@
 import { Header } from '../../components/Header/Header.jsx';
 import { Footer } from '../../components/Footer/Footer.jsx';
+import { Container } from "../../components/Container/Container.jsx";
 
 export const Travellers = () => {
     return (
         <div className='Travellers'>
             <Header/>
             <section>
-                <h1></h1>
+                <Container>
+                                    <h1></h1>
                 <ul>
                     {/* <li>
                         <img src="" alt="" />
@@ -19,6 +21,7 @@ export const Travellers = () => {
                     li template */}
                     <button>Показати ще</button>
                 </ul>
+                </Container>
             </section>
             <Footer/>
         </div>

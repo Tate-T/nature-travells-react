@@ -1,22 +1,24 @@
 import { Header } from '../../components/Header/Header.jsx';
 import { Footer } from '../../components/Footer/Footer.jsx';
+import { Container } from "../../components/Container/Container.jsx";
 
 export const Stories = () => {
     return (
         <div className="Stories">
             <Header />
             <section>
-                <h1>Статті</h1>
-                <ul>
-                    <li><button>Всі статті</button></li>
-                    <li><button>Маршрути</button></li>
-                    <li><button>Еко-поради</button></li>
-                    <li><button>Природа</button></li>
-                    <li><button>Культура</button></li>
-                    <li><button>Локальні продукти</button></li>
-                </ul>
-                <ul>
-                    {/* <li>
+                <Container>
+                    <h1>Статті</h1>
+                    <ul>
+                        <li><button>Всі статті</button></li>
+                        <li><button>Маршрути</button></li>
+                        <li><button>Еко-поради</button></li>
+                        <li><button>Природа</button></li>
+                        <li><button>Культура</button></li>
+                        <li><button>Локальні продукти</button></li>
+                    </ul>
+                    <ul>
+                        {/* <li>
                         <img src="" alt="" />
                         <div>
                             <p></p>
@@ -30,8 +32,10 @@ export const Stories = () => {
                         </div>
                     </li>
                     li template */}
-                    <button>Показати ще</button>
-                </ul>
+                        <button>Показати ще</button>
+                    </ul>
+                </Container>
+
             </section>
             <Footer />
         </div>
