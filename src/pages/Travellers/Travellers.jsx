@@ -1,6 +1,7 @@
 import { Header } from '../../components/Header/Header.jsx';
 import { Footer } from '../../components/Footer/Footer.jsx';
 import { Container } from "../../components/Container/Container.jsx";
+import style from "./Travellers.module.css";
 
 export const Travellers = () => {
     return (

@@ -1,4 +1,5 @@
 import { Container } from "../../components/Container/Container.jsx";
+import style from "./LogIn.module.css";
 
 export const LogIn = () => {
     return (
