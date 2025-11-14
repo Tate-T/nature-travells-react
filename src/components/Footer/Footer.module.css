@@ -1,0 +1,75 @@
+.footer {
+
+}
+
+.footer__top-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+
+}
+
+.footer__logo-svg {
+
+}
+
+.footer__logo-text {
+
+}
+
+.footer__links {
+    display: flex;
+    gap: 2px;
+}
+
+.footer__link {
+
+}
+
+.footer__link-svg {
+
+}
+
+.facebook {
+
+}
+
+.instagram {
+
+}
+
+.twitter {
+
+}
+
+.youtube {
+
+}
+
+.footer__sections-list {
+    display: flex;
+    gap: 5px;
+}
+
+.footer__section {
+
+}
+
+.footer__section-link {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--color-scheme-2-text);
+}
+
+.footer__credits {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--color-scheme-2-text);
+text-align: center;
+}

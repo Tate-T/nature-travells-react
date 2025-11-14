@@ -1,0 +1,61 @@
+.header {
+
+}
+
+.header__nav {
+display: flex;
+}
+
+.header__nav-logo {
+    display: flex;
+    margin-left: auto
+}
+
+.header__nav-logo-svg {
+
+}
+
+.header__nav-logo-text {
+font-family: ;
+font-weight: 500;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: -0.01em;
+color: var(--color-scheme-2-text);
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 8px;
+}
+
+.header__nav-item {
+
+}
+
+.header__nav-item-link {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--color-scheme-2-text);
+}
+
+.header__options {
+    display: flex;
+    gap: 3px;
+}
+
+.header__option-login {
+border: 1px solid var(--color-scheme-2-border);
+border-radius: 6px;
+padding: 4px 10px;
+background: var(--opacity-neutral-darkest-5);
+}
+
+.header__option-signup {
+border: 1px solid var(--color-mantis-dark);
+border-radius: 6px;
+padding: 4px 10px;
+background: var(--color-mantis-dark);
+}
