@@ -5,12 +5,12 @@ import style from "./Travellers.module.css";
 
 export const Travellers = () => {
     return (
-        <div className='Travellers'>
+        <div className={style.travellers}>
             <Header/>
-            <section>
+            <section className={style.travellers__section}>
                 <Container>
-                                    <h1></h1>
-                <ul>
+                                    <h1 className={style.travellers__section-headline}></h1>
+                <ul className={style.travellers__section-list}>
                     {/* <li>
                         <img src="" alt="" />
                         <div>
@@ -20,11 +20,13 @@ export const Travellers = () => {
                         </div>
                     </li>
                     li template */}
-                    <button>Показати ще</button>
                 </ul>
+                <button className={style.travellers__load-more}>Показати ще</button>
                 </Container>
             </section>
             <Footer/>
         </div>
     )
 }
+
+// I ACTUALLY DID IT I NAMED EVERY PAGE

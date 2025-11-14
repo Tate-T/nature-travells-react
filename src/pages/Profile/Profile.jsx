@@ -5,23 +5,23 @@ import style from "./Profile.module.css";
 
 export const Profile = () => {
     return (
-        <div className='Profile'>
+        <div className={style.profile}>
             <Header />
-            <section>
+            <section className={style.profile__section}>
                 <Container>
-                    <div>
-                        <img src="" alt="" />
-                        <div>
-                            <h4></h4>
-                            <p></p>
+                    <div className={style.profile__section-prof}>
+                        <img className={style.profile__prof-img} src="" alt="" />
+                        <div className={style.profile__prof-info}>
+                            <h4 className={style.profile__prof-info-name}></h4>
+                            <p className={style.profile__prof-info-count}></p>
                         </div>
                     </div>
-                    <div>
-                        <button>Збережені історії</button>
-                        <button>Мої історії</button>
+                    <div className={style.profile__section-options}>
+                        <button className={style.profile__options-saved}>Збережені історії</button>
+                        <button className={style.profile__options-mystories}>Мої історії</button>
                     </div>
-                    <h2>Статті Мандрівника</h2>
-                    <ul>
+                    <h2 className={style.profile__section-trav-stories}>Статті Мандрівника</h2>
+                    <ul className={style.profile__section-list}>
                         {/* <li>
                         <img src="" alt="" />
                         <div>
@@ -37,7 +37,7 @@ export const Profile = () => {
                     </li>
                     li template */}
                     </ul>
-                    <button>Показати ще</button>
+                    <button className={style.profile__load-more}>Показати ще</button>
                 </Container>
 
             </section>

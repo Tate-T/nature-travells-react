@@ -5,19 +5,19 @@ import style from "./Traveller.module.css";
 
 export const Traveller = () => {
     return (
-        <div className='Traveller'>
+        <div className={style.traveller}>
             <Header />
-            <section>
+            <section className={style.traveller__section}>
                 <Container>
-                    <div>
-                        <img src="" alt="" />
-                        <div>
-                            <h4></h4>
-                            <p></p>
+                    <div className={style.traveller__section-prof}>
+                        <img className={style.traveller__prof-img} src="" alt="" />
+                        <div className={style.traveller__prof-info}>
+                            <h4 className={style.traveller__prof-info-name}></h4>
+                            <p className={style.traveller__prof-info-count}></p>
                         </div>
                     </div>
-                    <h2>Статті Мандрівника</h2>
-                    <ul>
+                    <h2 className={style.traveller__section-trav-stories}>Статті Мандрівника</h2>
+                    <ul className={style.traveller__section-list}>
                         {/* <li>
                         <img src="" alt="" />
                         <div>
@@ -33,7 +33,7 @@ export const Traveller = () => {
                     </li>
                     li template */}
                     </ul>
-                    <button>Показати ще</button>
+                    <button className={style.traveller__load-more}>Показати ще</button>
                 </Container>
 
             </section>

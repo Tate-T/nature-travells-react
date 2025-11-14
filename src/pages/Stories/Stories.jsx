@@ -5,20 +5,20 @@ import style from "./Stories.module.css";
 
 export const Stories = () => {
     return (
-        <div className="Stories">
+        <div className={style.stories}>
             <Header />
-            <section>
+            <section className={style.stories__section}>
                 <Container>
-                    <h1>Статті</h1>
-                    <ul>
-                        <li><button>Всі статті</button></li>
-                        <li><button>Маршрути</button></li>
-                        <li><button>Еко-поради</button></li>
-                        <li><button>Природа</button></li>
-                        <li><button>Культура</button></li>
-                        <li><button>Локальні продукти</button></li>
+                    <h1 className={style.stories__section-headline}>Статті</h1>
+                    <ul className={style.stories__section-btn-list}>
+                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Всі статті</button></li>
+                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Маршрути</button></li>
+                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Еко-поради</button></li>
+                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Природа</button></li>
+                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Культура</button></li>
+                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Локальні продукти</button></li>
                     </ul>
-                    <ul>
+                    <ul className={style.stories__section-list}>
                         {/* <li>
                         <img src="" alt="" />
                         <div>
@@ -33,8 +33,8 @@ export const Stories = () => {
                         </div>
                     </li>
                     li template */}
-                        <button>Показати ще</button>
                     </ul>
+                    <button className={style.stories__load-more}>Показати ще</button>
                 </Container>
 
             </section>
