@@ -9,16 +9,16 @@ export const Stories = () => {
             <Header />
             <section className={style.stories__section}>
                 <Container>
-                    <h1 className={style.stories__section-headline}>Статті</h1>
-                    <ul className={style.stories__section-btn-list}>
-                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Всі статті</button></li>
-                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Маршрути</button></li>
-                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Еко-поради</button></li>
-                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Природа</button></li>
-                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Культура</button></li>
-                        <li className={style.stories__btn-item}><button className={style.stories__btn-item-btn}>Локальні продукти</button></li>
+                    <h1 className={style.stories__sectionHeadline}>Статті</h1>
+                    <ul className={style.stories__sectionBtnList}>
+                        <li className={style.stories__Item}><button className={style.stories__itemBtn}>Всі статті</button></li>
+                        <li className={style.stories__Item}><button className={style.stories__itemBtn}>Маршрути</button></li>
+                        <li className={style.stories__Item}><button className={style.stories__itemBtn}>Еко-поради</button></li>
+                        <li className={style.stories__Item}><button className={style.stories__itemBtn}>Природа</button></li>
+                        <li className={style.stories__Item}><button className={style.stories__itemBtn}>Культура</button></li>
+                        <li className={style.stories__Item}><button className={style.stories__itemBtn}>Локальні продукти</button></li>
                     </ul>
-                    <ul className={style.stories__section-list}>
+                    <ul className={style.stories__sectionList}>
                         {/* <li>
                         <img src="" alt="" />
                         <div>
@@ -34,7 +34,7 @@ export const Stories = () => {
                     </li>
                     li template */}
                     </ul>
-                    <button className={style.stories__load-more}>Показати ще</button>
+                    <button className={style.stories__loadMore}>Показати ще</button>
                 </Container>
 
             </section>

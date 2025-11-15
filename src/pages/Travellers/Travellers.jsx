@@ -9,8 +9,8 @@ export const Travellers = () => {
             <Header/>
             <section className={style.travellers__section}>
                 <Container>
-                                    <h1 className={style.travellers__section-headline}></h1>
-                <ul className={style.travellers__section-list}>
+                                    <h1 className={style.travellers__sectionHeadline}></h1>
+                <ul className={style.travellers__sectionList}>
                     {/* <li>
                         <img src="" alt="" />
                         <div>
@@ -21,7 +21,7 @@ export const Travellers = () => {
                     </li>
                     li template */}
                 </ul>
-                <button className={style.travellers__load-more}>Показати ще</button>
+                <button className={style.travellers__loadMore}>Показати ще</button>
                 </Container>
             </section>
             <Footer/>

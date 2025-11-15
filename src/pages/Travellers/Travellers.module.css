@@ -1,4 +1,4 @@
-.travellers__section-headline {
+.travellers__sectionHeadline {
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 56px;
@@ -8,7 +8,7 @@ text-align: center;
 color: var(--color-scheme-1-text);
 }
 
-.travellers__section-list {
+.travellers__sectionList {
     display: flex;
     justify-content: center;
     gap: 4px;
@@ -47,7 +47,7 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 } */
 
-.travellers__load-more {
+.travellers__loadMore {
     font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;

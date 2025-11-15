@@ -8,42 +8,42 @@ export const Story = () => {
         <div className={style.story}>
             <Header />
             {/* article section */}
-            <section className={style.story__article-section}>
+            <section className={style.story__article}>
                 <Container>
 
-                    <div className={style.story__article-section-article}>
+                    <div className={style.story__articleFlex}>
 
-                        <div className={style.story__article-info}>
+                        <div className={style.story__articleInfo}>
 
                             <button className={style.story__return}>
-                                <svg className={style.story__return-svg} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <svg className={style.story__returnSvg} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path d="M14.0371 6.64844C14.1379 6.64844 14.2149 6.67885 14.293 6.75684C14.3711 6.83496 14.4014 6.91179 14.4014 7.0127C14.4014 7.1136 14.3711 7.19043 14.293 7.26855L9.58594 11.9756L9.93945 12.3291L14.293 16.6816C14.3707 16.7594 14.3926 16.8265 14.3896 16.9072C14.3861 17.0012 14.3542 17.0822 14.2686 17.168C14.1905 17.246 14.1135 17.2773 14.0127 17.2773C13.9118 17.2773 13.835 17.2461 13.7568 17.168L8.8125 12.2246C8.78534 12.1974 8.76548 12.1732 8.75098 12.1523L8.72168 12.0996C8.70687 12.0641 8.69829 12.0242 8.69824 11.9756C8.69824 11.9513 8.70011 11.9287 8.7041 11.9082L8.72168 11.8506C8.73339 11.8224 8.75834 11.7798 8.8125 11.7256L13.7822 6.75684C13.8602 6.67903 13.9365 6.64851 14.0371 6.64844Z" fill="#1B391B" stroke="#1B391B" />
                                 </svg>
-                                <p className={style.story__return-text}>Всі статті</p>
+                                <p className={style.story__returnText}>Всі статті</p>
                             </button>
 
-                            <h2 className={style.story__info-headline}>Карпати для новачків: легкі маршрути вихідного дня</h2>
+                            <h2 className={style.story__infoHeadline}>Карпати для новачків: легкі маршрути вихідного дня</h2>
 
-                            <div className={style.story__info-author}>
-                                <p className={style.story__author-name}>Автор статті <span className={style.name}></span></p>
-                                <p className={style.story__author-date}>Опубліковано <span className={style.date}></span></p>
-                                <button className={style.story__author-location}>Маршрути</button>
+                            <div className={style.story__infoAuthor}>
+                                <p className={style.story__authorName}>Автор статті <span className={style.name}></span></p>
+                                <p className={style.story__authorDate}>Опубліковано <span className={style.date}></span></p>
+                                <button className={style.story__authorLocation}>Маршрути</button>
                             </div>
 
                         </div>
 
-                        <img className={style.story__article-img} src="" alt="" />
+                        <img className={style.story__articleImg} src="" alt="" />
 
                     </div>
 
-                    <p className={style.story__article-section-describtion}>Карпати – це ідеальне місце для тих, хто тільки починає відкривати для себе світ гірських мандрівок. Тут можна знайти безліч маршрутів, які не потребують спеціальної підготовки чи складного спорядження, але водночас дарують неймовірні враження від природи. Легкі стежки пролягають через зелені пагорби, мальовничі полонини та соснові ліси, де кожен крок наповнює подорож спокоєм і свіжим повітрям.
+                    <p className={style.story__articleDescribtion}>Карпати – це ідеальне місце для тих, хто тільки починає відкривати для себе світ гірських мандрівок. Тут можна знайти безліч маршрутів, які не потребують спеціальної підготовки чи складного спорядження, але водночас дарують неймовірні враження від природи. Легкі стежки пролягають через зелені пагорби, мальовничі полонини та соснові ліси, де кожен крок наповнює подорож спокоєм і свіжим повітрям.
                         Одним із популярних напрямків є прогулянки до невеликих вершин, з яких відкриваються панорамні краєвиди на гірські хребти та долини. Такі маршрути займають усього кілька годин і підходять навіть для сімей з дітьми. Подорожуючи вихідного дня, ви зможете насолодитися чарівною тишею лісів, відкрити для себе чисті гірські потоки та відчути особливу атмосферу Карпат без перевтоми.
                         Легкі маршрути – чудовий спосіб розпочати знайомство з горами, відчути ритм природи та зрозуміти, що мандрівка може бути доступною кожному. Карпати надихають і водночас навчають бережно ставитися до довкілля, адже краса цих місць заслуговує на те, щоб залишатися незмінною для наступних поколінь.</p>
                     
-                    <div className={style.story__article-section-save}>
-                        <h3 className={style.story__save-text}>Збережіть собі історію</h3>
-                        <p className={style.story__save-text-info}>Вона буде доступна у вашому профілі у розділі збережене</p>
-                        <button className={style.story__save-btn}>Зберегти</button>
+                    <div className={style.story__articleSave}>
+                        <h3 className={style.story__saveText}>Збережіть собі історію</h3>
+                        <p className={style.story__saveInfo}>Вона буде доступна у вашому профілі у розділі збережене</p>
+                        <button className={style.story__saveBtn}>Зберегти</button>
                     </div>
 
                 </Container>
@@ -52,8 +52,8 @@ export const Story = () => {
             {/* recommended section */}
             <section className={style.story__recommended}>
                 <Container>
-                    <h2 className={style.story__recommended}>Вам також сподобається</h2>
-                    <ul className={style.story__recommended-list}>
+                    <h2 className={style.story__recommendedHeadline}>Вам також сподобається</h2>
+                    <ul className={style.story__recommendedList}>
                         {/* <li className={style.story__recommended-item}>
                             <img className={style.story__recommended-item-img} src="" alt="image" />
                             <div className={style.story__recommended-item-text-half}>

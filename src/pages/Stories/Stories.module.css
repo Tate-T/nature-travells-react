@@ -1,4 +1,4 @@
-.stories__section-headline {
+.stories__sectionHeadline {
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 56px;
@@ -8,12 +8,12 @@ text-align: center;
 color: var(--color-scheme-1-text);
 }
 
-.stories__section-btn-list {
+.stories__sectionBtnList {
     display: flex;
     gap: 8px;
 }
 
-.stories__btn-item-btn {
+.stories__itemBtn {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -21,13 +21,13 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 }
 
-.stories__section-list {
+.stories__sectionList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.stories__load-more {
+.stories__loadMore {
     font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;

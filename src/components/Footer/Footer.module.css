@@ -2,7 +2,7 @@
 
 }
 
-.footer__top-side {
+.footer__topSide {
     display: flex;
     justify-content: space-between;
 }
@@ -29,10 +29,6 @@
 
 }
 
-.footer__link-svg {
-
-}
-
 .facebook {
 
 }
@@ -49,7 +45,7 @@
 
 }
 
-.footer__sections-list {
+.footer__sectionsList {
     display: flex;
     gap: 5px;
 }
@@ -58,7 +54,7 @@
 
 }
 
-.footer__section-link {
+.footer__sectionLink {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -66,7 +62,7 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 }
 
-.footer__credits {
+.footer__copyright {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;

@@ -1,4 +1,4 @@
-.new__story-section-headline {
+.newStory__headline {
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 56px;
@@ -7,7 +7,7 @@ letter-spacing: -0.01em;
 color: var(--color-scheme-2-text);
 }
 
-.new__story-section-text {
+.newStory__text {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -15,13 +15,13 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 }
 
-.new__story-section-img {
+.newStory__photo {
     border-radius: 12px;
 width: 1091px;
 height: 726px;
 }
 
-.new__story-section-img-btn {
+.newStory__download {
     border: 1px solid var(--color-scheme-2-border);
 border-radius: 6px;
 padding: 4px 10px;
@@ -32,7 +32,7 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 }
 
-.new__story-form-text {
+.newStory__formText {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -40,7 +40,7 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 }
 
-.new__story-form-inp {
+.newStory__formInp {
 border: 1px solid var(--opacity-neutral-darkest-15);
 border-radius: 6px;
 padding: 8px;
@@ -48,7 +48,7 @@ width: 1091px;
 background-color: transparent;
 }
 
-.new__story-form-inp::placeholder {
+.newStory__formInp::placeholder {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -56,7 +56,7 @@ line-height: 150%;
 color: var(--opacity-neutral-darkest-60);
 }
 
-.new__story-form-save {
+.newStory__formSave {
     font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;
@@ -68,11 +68,11 @@ padding: 6px 12px;
 background: var(--color-mantis-dark);
 }
 
-.btn-opacity {
+.btnOpacity {
 opacity: 0.3;
 }
 
-.new__story-form-cancel {
+.newStory__formCancel {
     border: 1px solid var(--color-scheme-2-border);
 border-radius: 6px;
 padding: 6px 12px;

@@ -1,13 +1,13 @@
-.traveller__section-prof {
+.traveller__sectionProf {
     display: flex;
     align-items: center;
 }
 
-.traveller__prof-img {
+.traveller__profImg {
     border-radius: 100%;
 }
 
-.traveller__prof-info-name {
+.traveller__profInfoName {
 font-family: var(--font-family);
 font-weight: 700;
 font-size: 32px;
@@ -16,7 +16,7 @@ letter-spacing: -0.01em;
 color: var(--color-scheme-2-text);
 }
 
-.traveller__prof-info-count {
+.traveller__profInfoCount {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 20px;
@@ -24,7 +24,7 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 }
 
-.traveller__section-list {
+.traveller__sectionList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,7 +63,7 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 } */
 
-.traveller__load-more {
+.traveller__loadMore {
     font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;

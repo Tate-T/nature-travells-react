@@ -1,13 +1,13 @@
-.sign__up__header {
+.signIn__header {
     display: flex;
 }
 
-.sign__up__header-svg-box {
+.signIn__logo {
     display: flex;
     align-items: center;
 }
 
-.sign__up__header-svg-text {
+.signIn__logoText {
    font-family: var(--font-family);
 font-weight: 500;
 font-size: 17px;
@@ -16,12 +16,12 @@ letter-spacing: -0.01em;
 color: var(--color-scheme-2-text); 
 }
 
-.sign__up__section-btns {
+.signIn__sectionBtns {
     display: flex;
     justify-content: center;
 }
 
-.sign__up__btn {
+.signIn__btn {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -31,11 +31,11 @@ color: var(--color-scheme-1-text);
     background-color: transparent;
 }
 
-.sign__up__btn:hover {
+.signIn__btn:hover {
     border: 1px solid var(--color-scheme-1-border);
 }
 
-.sign__up__login-box-log {
+.signIn__boxLog {
 font-family: var(--font-family);
 font-weight: 700;
 font-size: 52px;
@@ -45,7 +45,7 @@ text-align: center;
 color: var(--color-scheme-1-text);
 }
 
-.sign__up__login-box-text {
+.signIn__boxText {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 20px;
@@ -54,7 +54,7 @@ text-align: center;
 color: var(--color-scheme-1-text);
 }
 
-.sign__up__form-text {
+.signIn__formText {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -62,7 +62,7 @@ line-height: 150%;
 color: var(--color-scheme-1-text);
 }
 
-.sign__up__form-inp {
+.signIn__formInp {
     border: 1px solid var(--opacity-neutral-darkest-15);
 border-radius: 6px;
 padding: 8px;
@@ -70,7 +70,7 @@ width: 644px;
 background-color: transparent;
 }
 
-.sign__up__form-inp::placeholder {
+.signIn__formInp::placeholder {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -78,7 +78,7 @@ line-height: 150%;
 color: var(--opacity-neutral-darkest-60);
 }
 
-.sign__up__form-submit {
+.signIn__formSubmit {
     border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
 padding: 6px 12px;
@@ -90,7 +90,7 @@ line-height: 150%;
 color: var(--color-white);
 }
 
-.sign__up__footer-text {
+.signIn__copyright {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;

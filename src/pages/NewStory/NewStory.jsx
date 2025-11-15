@@ -5,24 +5,24 @@ import style from "./NewStory.module.css";
 
 export const NewStory = () => {
     return (
-        <div className={style.new__story}>
+        <div className={style.newStory}>
             <Header />
-            <section className={style.new__story-section}>
+            <section className={style.newStory__section}>
                 <Container>
-                    <h2 className={style.new__story-section-headline}>Створити нову історію</h2>
-                    <p className={style.new__story-section-text}>Обкладинка статті</p>
-                    <img className={style.new__story-section-img} src="" alt="Image" />
-                    <button className={style.new__story-section-img-btn}>Завантажити фото</button>
+                    <h2 className={style.newStory__headline}>Створити нову історію</h2>
+                    <p className={style.newStory__text}>Обкладинка статті</p>
+                    <img className={style.newStory__photo} src="" alt="Image" />
+                    <button className={style.newStory__download}>Завантажити фото</button>
 
-                    <form className={style.new__story-section-form} action="">
-                        <p className={style.new__story-form-text}>Загаловок</p>
-                        <input className={style.new__story-form-inp} type="text" placeholder='Введіть заголовок історії' />
-                        <p className={style.new__story-form-text}>Категорія</p>
-                        <input className={style.new__story-form-inp} type="text" placeholder='Категорія' />
-                        <p className={style.new__story-form-text}>Текст історії</p>
-                        <input className={style.new__story-form-inp} type="text" placeholder='Ваша історія тут' />
-                        <button className={style.new__story-form-save}>Зберегти</button>
-                        <button className={style.new__story-form-cancel}>Відмінити</button>
+                    <form className={style.newStory__section__form} action="">
+                        <p className={style.newStory__formText}>Загаловок</p>
+                        <input className={style.newStory__formInp} type="text" placeholder='Введіть заголовок історії' />
+                        <p className={style.newStory__formText}>Категорія</p>
+                        <input className={style.newStory__formInp} type="text" placeholder='Категорія' />
+                        <p className={style.newStory__formText}>Текст історії</p>
+                        <input className={style.newStory__formInp} type="text" placeholder='Ваша історія тут' />
+                        <button className={style.newStory__formSave}>Зберегти</button>
+                        <button className={style.newStory__formCancel}>Відмінити</button>
                     </form>
 
                 </Container>

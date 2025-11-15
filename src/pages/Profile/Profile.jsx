@@ -9,19 +9,19 @@ export const Profile = () => {
             <Header />
             <section className={style.profile__section}>
                 <Container>
-                    <div className={style.profile__section-prof}>
-                        <img className={style.profile__prof-img} src="" alt="" />
-                        <div className={style.profile__prof-info}>
-                            <h4 className={style.profile__prof-info-name}></h4>
-                            <p className={style.profile__prof-info-count}></p>
+                    <div className={style.profile__sectionProf}>
+                        <img className={style.profile__profImg} src="" alt="" />
+                        <div className={style.profile__profInfo}>
+                            <h4 className={style.profile__profInfoName}></h4>
+                            <p className={style.profile__profInfoCount}></p>
                         </div>
                     </div>
-                    <div className={style.profile__section-options}>
+                    <div className={style.profile__sectionOptions}>
                         <button className={style.profile__option}>Збережені історії</button>
                         <button className={style.profile__option}>Мої історії</button>
                     </div>
-                    <h2 className={style.profile__section-trav-stories}>Статті Мандрівника</h2>
-                    <ul className={style.profile__section-list}>
+
+                    <ul className={style.profile__sectionList}>
                         {/* <li>
                         <img src="" alt="" />
                         <div>
@@ -37,7 +37,7 @@ export const Profile = () => {
                     </li>
                     li template */}
                     </ul>
-                    <button className={style.profile__load-more}>Показати ще</button>
+                    <button className={style.profile__loadMore}>Показати ще</button>
                 </Container>
 
             </section>

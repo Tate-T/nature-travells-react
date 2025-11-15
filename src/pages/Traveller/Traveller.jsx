@@ -9,15 +9,15 @@ export const Traveller = () => {
             <Header />
             <section className={style.traveller__section}>
                 <Container>
-                    <div className={style.traveller__section-prof}>
-                        <img className={style.traveller__prof-img} src="" alt="" />
-                        <div className={style.traveller__prof-info}>
-                            <h4 className={style.traveller__prof-info-name}></h4>
-                            <p className={style.traveller__prof-info-count}></p>
+                    <div className={style.traveller__sectionProf}>
+                        <img className={style.traveller__profImg} src="" alt="" />
+                        <div className={style.traveller__profInfo}>
+                            <h4 className={style.traveller__profInfoName}></h4>
+                            <p className={style.traveller__profInfoCount}></p>
                         </div>
                     </div>
-                    <h2 className={style.traveller__section-trav-stories}>Статті Мандрівника</h2>
-                    <ul className={style.traveller__section-list}>
+                    <h2 className={style.traveller__sectionTravArticles}>Статті Мандрівника</h2>
+                    <ul className={style.traveller__sectionList}>
                         {/* <li>
                         <img src="" alt="" />
                         <div>
@@ -33,7 +33,7 @@ export const Traveller = () => {
                     </li>
                     li template */}
                     </ul>
-                    <button className={style.traveller__load-more}>Показати ще</button>
+                    <button className={style.traveller__loadMore}>Показати ще</button>
                 </Container>
 
             </section>

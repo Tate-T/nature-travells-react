@@ -1,13 +1,13 @@
-.profile__section-prof {
+.profile__sectionProf {
     display: flex;
     align-items: center;
 }
 
-.profile__prof-img {
+.profile__profImg {
     border-radius: 100%;
 }
 
-.profile__prof-info-name {
+.profile__profInfoName {
 font-family: var(--font-family);
 font-weight: 700;
 font-size: 32px;
@@ -16,7 +16,7 @@ letter-spacing: -0.01em;
 color: var(--color-scheme-2-text);
 }
 
-.profile__prof-info-count {
+.profile__profInfoCount {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 20px;
@@ -24,7 +24,7 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 }
 
-.profile__section-options {
+.profile__sectionOptions {
     display: flex;
 }
 
@@ -44,11 +44,12 @@ background: var(--color-scheme-2-background);
     background: var(--opacity-transparent);
 }
 
-.profile__section-list {
+.profile__sectionList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 
 /* traveller li */
 
@@ -83,7 +84,7 @@ line-height: 150%;
 color: var(--color-scheme-2-text);
 } */
 
-.profile__load-more {
+.profile__loadMore {
     font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;

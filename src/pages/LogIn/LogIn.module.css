@@ -1,13 +1,13 @@
-.log__in__header {
+.logIn__header {
     display: flex;
 }
 
-.log__in__header-svg-box {
+.logIn__logo {
     display: flex;
     align-items: center;
 }
 
-.log__in__header-svg-text {
+.logIn__logoText {
    font-family: var(--font-family);
 font-weight: 500;
 font-size: 17px;
@@ -16,12 +16,12 @@ letter-spacing: -0.01em;
 color: var(--color-scheme-2-text); 
 }
 
-.log__in__section-btns {
+.logIn__sectionBtns {
     display: flex;
     justify-content: center;
 }
 
-.log__in__btn {
+.logIn__btn {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -31,11 +31,11 @@ color: var(--color-scheme-1-text);
     background-color: transparent;
 }
 
-.log__in__btn:hover {
+.logIn__btn:hover {
     border: 1px solid var(--color-scheme-1-border);
 }
 
-.log__in__login-box-log {
+.logIn__boxLog {
 font-family: var(--font-family);
 font-weight: 700;
 font-size: 52px;
@@ -45,7 +45,7 @@ text-align: center;
 color: var(--color-scheme-1-text);
 }
 
-.log__in__login-box-text {
+.logIn__boxText {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 20px;
@@ -54,7 +54,7 @@ text-align: center;
 color: var(--color-scheme-1-text);
 }
 
-.log__in__form-text {
+.logIn__formText {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -62,7 +62,7 @@ line-height: 150%;
 color: var(--color-scheme-1-text);
 }
 
-.log__in__form-inp {
+.logIn__formInp {
     border: 1px solid var(--opacity-neutral-darkest-15);
 border-radius: 6px;
 padding: 8px;
@@ -70,7 +70,7 @@ width: 644px;
 background-color: transparent;
 }
 
-.log__in__form-inp::placeholder {
+.logIn__formInp::placeholder {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -78,7 +78,7 @@ line-height: 150%;
 color: var(--opacity-neutral-darkest-60);
 }
 
-.log__in__form-submit {
+.logIn__formSubmit {
     border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
 padding: 6px 12px;
@@ -90,7 +90,7 @@ line-height: 150%;
 color: var(--color-white);
 }
 
-.log__in__footer-text {
+.logIn__copyright {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
