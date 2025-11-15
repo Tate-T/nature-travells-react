@@ -19,14 +19,14 @@ export const Story = () => {
                                 <svg className={style.story__return-svg} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path d="M14.0371 6.64844C14.1379 6.64844 14.2149 6.67885 14.293 6.75684C14.3711 6.83496 14.4014 6.91179 14.4014 7.0127C14.4014 7.1136 14.3711 7.19043 14.293 7.26855L9.58594 11.9756L9.93945 12.3291L14.293 16.6816C14.3707 16.7594 14.3926 16.8265 14.3896 16.9072C14.3861 17.0012 14.3542 17.0822 14.2686 17.168C14.1905 17.246 14.1135 17.2773 14.0127 17.2773C13.9118 17.2773 13.835 17.2461 13.7568 17.168L8.8125 12.2246C8.78534 12.1974 8.76548 12.1732 8.75098 12.1523L8.72168 12.0996C8.70687 12.0641 8.69829 12.0242 8.69824 11.9756C8.69824 11.9513 8.70011 11.9287 8.7041 11.9082L8.72168 11.8506C8.73339 11.8224 8.75834 11.7798 8.8125 11.7256L13.7822 6.75684C13.8602 6.67903 13.9365 6.64851 14.0371 6.64844Z" fill="#1B391B" stroke="#1B391B" />
                                 </svg>
-                                Всі статті
+                                <p className={style.story__return-text}>Всі статті</p>
                             </button>
 
                             <h2 className={style.story__info-headline}>Карпати для новачків: легкі маршрути вихідного дня</h2>
 
                             <div className={style.story__info-author}>
-                                <p className={style.story__author-name}>Автор статті</p>
-                                <p className={style.story__author-date}>Опубліковано</p>
+                                <p className={style.story__author-name}>Автор статті <span className={style.name}></span></p>
+                                <p className={style.story__author-date}>Опубліковано <span className={style.date}></span></p>
                                 <button className={style.story__author-location}>Маршрути</button>
                             </div>
 
@@ -54,7 +54,7 @@ export const Story = () => {
                 <Container>
                     <h2 className={style.story__recommended}>Вам також сподобається</h2>
                     <ul className={style.story__recommended-list}>
-                        <li className={style.story__recommended-item}>
+                        {/* <li className={style.story__recommended-item}>
                             <img className={style.story__recommended-item-img} src="" alt="image" />
                             <div className={style.story__recommended-item-text-half}>
                                 <p className={style.story__recommended-half-text}></p>
@@ -66,7 +66,7 @@ export const Story = () => {
                                     </svg>
                                 </button>
                             </div>
-                        </li>
+                        </li> */}
                     </ul>
                 </Container>
 

@@ -17,8 +17,8 @@ export const Profile = () => {
                         </div>
                     </div>
                     <div className={style.profile__section-options}>
-                        <button className={style.profile__options-saved}>Збережені історії</button>
-                        <button className={style.profile__options-mystories}>Мої історії</button>
+                        <button className={style.profile__option}>Збережені історії</button>
+                        <button className={style.profile__option}>Мої історії</button>
                     </div>
                     <h2 className={style.profile__section-trav-stories}>Статті Мандрівника</h2>
                     <ul className={style.profile__section-list}>

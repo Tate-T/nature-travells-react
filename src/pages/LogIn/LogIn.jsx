@@ -16,19 +16,19 @@ export const LogIn = () => {
             </header>
             <section className={style.log__in__section}>
                 <Container>
-                    <div className={style.log__in__section-btn-list}>
-                        <button className={style.log__in__btn-list-signup}>Реєстрація</button>
-                        <button className={style.log__in__btn-list-login}>Вхід</button>
+                    <div className={style.log__in__section-btns}>
+                        <button className={style.log__in__btn}>Реєстрація</button>
+                        <button className={style.log__in__btn}>Вхід</button>
                     </div>
                     <div className={style.log__in__section-login-box}>
                         <h2 className={style.log__in__login-box-log}>Вхід</h2>
                         <p className={style.log__in__login-box-text}>Вітаємо знову у спільноту мандрівників!</p>
 
                         <form className={style.log__in__login-box-form} action="">
-                            <p className={style.log__in__form-email-text}>Пошта*</p>
-                            <input className={style.log__in__form-email} placeholder="template@gmail.com" type="text" />
-                            <p className={style.log__in__form-pass-text}>Пароль*</p>
-                            <input className={style.log__in__form-pass} placeholder="password123" type="text" />
+                            <p className={style.log__in__form-text}>Пошта*</p>
+                            <input className={style.log__in__form-inp} placeholder="template@gmail.com" type="text" />
+                            <p className={style.log__in__form-text}>Пароль*</p>
+                            <input className={style.log__in__form-inp} placeholder="password123" type="text" />
                             <button className={style.log__in__form-submit} type="submit">Увійти</button>
                         </form>
                     </div>

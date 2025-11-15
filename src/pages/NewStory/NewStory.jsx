@@ -13,16 +13,18 @@ export const NewStory = () => {
                     <p className={style.new__story-section-text}>Обкладинка статті</p>
                     <img className={style.new__story-section-img} src="" alt="Image" />
                     <button className={style.new__story-section-img-btn}>Завантажити фото</button>
+
                     <form className={style.new__story-section-form} action="">
-                        <p className={style.new__story-form-headline-text}>Загаловок</p>
-                        <input className={style.new__story-form-headline} type="text" placeholder='Введіть заголовок історії' />
-                        <p className={style.new__story-form-category-text}>Категорія</p>
-                        <input className={style.new__story-form-category} type="text" placeholder='Категорія' />
-                        <p className={style.new__story-form-story-text}>Текст історії</p>
-                        <input className={style.new__story-form-story} type="text" placeholder='Ваша історія тут' />
+                        <p className={style.new__story-form-text}>Загаловок</p>
+                        <input className={style.new__story-form-inp} type="text" placeholder='Введіть заголовок історії' />
+                        <p className={style.new__story-form-text}>Категорія</p>
+                        <input className={style.new__story-form-inp} type="text" placeholder='Категорія' />
+                        <p className={style.new__story-form-text}>Текст історії</p>
+                        <input className={style.new__story-form-inp} type="text" placeholder='Ваша історія тут' />
                         <button className={style.new__story-form-save}>Зберегти</button>
                         <button className={style.new__story-form-cancel}>Відмінити</button>
                     </form>
+
                 </Container>
 
             </section>

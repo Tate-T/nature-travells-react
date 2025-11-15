@@ -17,21 +17,21 @@ export const SignIn = () => {
             </header>
             <section className={style.sign__in__}>
                 <Container>
-                    <div className={style.sign__in__section-btn-list}>
-                        <button className={style.sign__in__btn-list-signup}>Реєстрація</button>
-                        <button className={style.sign__in__btn-list-login}>Вхід</button>
+                    <div className={style.sign__in__section-btns}>
+                        <button className={style.sign__in__btn}>Реєстрація</button>
+                        <button className={style.sign__in__btn}>Вхід</button>
                     </div>
                     <div className={style.sign__in__section-signup-box}>
                         <h2 className={style.sign__in__signup-box-log}>Реєстрація</h2>
                         <p className={style.sign__in__signup-box-text}>Вітаємо знову у спільноту мандрівників!</p>
 
                         <form className={style.sign__in__signup-box-form} action="">
-                            <p className={style.sign__in__form-name-text}>Імʼя та Прізвище*</p>
-                            <input className={style.sign__in__form-name} placeholder="Ваше імʼя та прізвище" type="text" />
-                            <p className={style.sign__in__form-email-text}>Пошта*</p>
-                            <input className={style.sign__in__form-email} placeholder="template@gmail.com" type="text" />
-                            <p className={style.sign__in__form-pass-text}>Пароль*</p>
-                            <input className={style.sign__in__form-pass} placeholder="password123" type="text" />
+                            <p className={style.sign__in__form-text}>Імʼя та Прізвище*</p>
+                            <input className={style.sign__in__form-inp} placeholder="Ваше імʼя та прізвище" type="text" />
+                            <p className={style.sign__in__form-text}>Пошта*</p>
+                            <input className={style.sign__in__form-inp} placeholder="template@gmail.com" type="text" />
+                            <p className={style.sign__in__form-text}>Пароль*</p>
+                            <input className={style.sign__in__form-inp} placeholder="password123" type="text" />
                             <button className={style.sign__in__form-submit} type="submit">Увійти</button>
                         </form>
                     </div>

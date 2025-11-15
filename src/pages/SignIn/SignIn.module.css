@@ -1,0 +1,100 @@
+.sign__up__header {
+    display: flex;
+}
+
+.sign__up__header-svg-box {
+    display: flex;
+    align-items: center;
+}
+
+.sign__up__header-svg-text {
+   font-family: var(--font-family);
+font-weight: 500;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: -0.01em;
+color: var(--color-scheme-2-text); 
+}
+
+.sign__up__section-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.sign__up__btn {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--color-scheme-1-text);
+    padding: 12px 24px;
+    background-color: transparent;
+}
+
+.sign__up__btn:hover {
+    border: 1px solid var(--color-scheme-1-border);
+}
+
+.sign__up__login-box-log {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 52px;
+line-height: 120%;
+letter-spacing: -0.01em;
+text-align: center;
+color: var(--color-scheme-1-text);
+}
+
+.sign__up__login-box-text {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+text-align: center;
+color: var(--color-scheme-1-text);
+}
+
+.sign__up__form-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--color-scheme-1-text);
+}
+
+.sign__up__form-inp {
+    border: 1px solid var(--opacity-neutral-darkest-15);
+border-radius: 6px;
+padding: 8px;
+width: 644px;
+background-color: transparent;
+}
+
+.sign__up__form-inp::placeholder {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--opacity-neutral-darkest-60);
+}
+
+.sign__up__form-submit {
+    border: 1px solid var(--color-mantis-dark);
+border-radius: 6px;
+padding: 6px 12px;
+background: var(--color-mantis-dark);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: var(--color-white);
+}
+
+.sign__up__footer-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: var(--color-scheme-1-text);
+}

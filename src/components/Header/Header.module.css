@@ -8,7 +8,8 @@ display: flex;
 
 .header__nav-logo {
     display: flex;
-    margin-left: auto
+    margin-left: auto;
+    align-items: center
 }
 
 .header__nav-logo-svg {
@@ -51,6 +52,11 @@ border: 1px solid var(--color-scheme-2-border);
 border-radius: 6px;
 padding: 4px 10px;
 background: var(--opacity-neutral-darkest-5);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: var(--color-scheme-2-text);
 }
 
 .header__option-signup {
@@ -58,4 +64,9 @@ border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
 padding: 4px 10px;
 background: var(--color-mantis-dark);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: var(--color-white);
 }
