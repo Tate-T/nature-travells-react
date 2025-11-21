@@ -17,11 +17,12 @@ export const Header = () => {
                         <li className={style.header__navItem}><a className={style.header__navItemLink}>Статті</a></li>
                         <li className={style.header__navItem}><a className={style.header__navItemLink}>Еко-Мандрівники</a></li>
                     </ul>
-                </nav>
-                <div className={style.header__options}>
+                    <div className={style.header__options}>
                     <button className={style.header__optionLogin}>Вхід</button>
                     <button className={style.header__optionSignup}>Реєстрація</button>
                 </div>
+                </nav>
+                
             </Container>
         </header>
     )

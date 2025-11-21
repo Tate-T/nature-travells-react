@@ -1,3 +1,8 @@
+.newStory__section {
+    padding-top: 55px;
+    padding-bottom: 71px;
+}
+
 .newStory__headline {
     font-family: var(--font-family);
 font-weight: 700;
@@ -5,6 +10,7 @@ font-size: 56px;
 line-height: 110%;
 letter-spacing: -0.01em;
 color: var(--color-scheme-2-text);
+margin-bottom: 64px;
 }
 
 .newStory__text {
@@ -13,12 +19,14 @@ font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
+margin-bottom: 13px;
 }
 
 .newStory__photo {
     border-radius: 12px;
 width: 1091px;
 height: 726px;
+margin-bottom: 22px;
 }
 
 .newStory__download {
@@ -30,6 +38,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
+margin-bottom: 31px;
 }
 
 .newStory__formText {
@@ -38,6 +47,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
+margin-bottom: 13px;
 }
 
 .newStory__formInp {
@@ -46,6 +56,16 @@ border-radius: 6px;
 padding: 8px;
 width: 1091px;
 background-color: transparent;
+margin-bottom: 30px;
+}
+
+.newStory__bigFormInp {
+border: 1px solid var(--opacity-neutral-darkest-15);
+border-radius: 6px;
+padding: 8px;
+width: 1091px;
+background-color: transparent;
+height: 180px;
 }
 
 .newStory__formInp::placeholder {
@@ -54,6 +74,10 @@ font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--opacity-neutral-darkest-60);
+}
+
+.newStory__buttons {
+    margin-top: 57px;
 }
 
 .newStory__formSave {
@@ -77,4 +101,9 @@ opacity: 0.3;
 border-radius: 6px;
 padding: 6px 12px;
 background: var(--opacity-neutral-darkest-5);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: var(--color-scheme-2-text);
 }

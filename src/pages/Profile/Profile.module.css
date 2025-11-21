@@ -1,3 +1,8 @@
+.profile__section {
+    padding-top: 48px;
+        padding-bottom: 72px;
+}
+
 .profile__sectionProf {
     display: flex;
     align-items: center;
@@ -26,6 +31,8 @@ color: var(--color-scheme-2-text);
 
 .profile__sectionOptions {
     display: flex;
+    margin-top: 48px;
+        margin-bottom: 40px;
 }
 
 .profile__option {
@@ -94,4 +101,5 @@ color: var(--color-white);
 border-radius: 6px;
 padding: 6px 12px;
 background: var(--color-mantis-dark);
+margin-top: 40px;
 }

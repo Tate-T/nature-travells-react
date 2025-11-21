@@ -1,3 +1,8 @@
+.traveller__section {
+    padding-top: 48px;
+        padding-bottom: 72px;
+}
+
 .traveller__sectionProf {
     display: flex;
     align-items: center;
@@ -14,6 +19,11 @@ font-size: 32px;
 line-height: 130%;
 letter-spacing: -0.01em;
 color: var(--color-scheme-2-text);
+}
+
+.traveller__sectionTravArticles {
+        margin-top: 48px;
+        margin-bottom: 40px;
 }
 
 .traveller__profInfoCount {
@@ -73,4 +83,5 @@ color: var(--color-white);
 border-radius: 6px;
 padding: 6px 12px;
 background: var(--color-mantis-dark);
+margin-top: 40px;
 }

@@ -1,6 +1,11 @@
 /* HERO */
 
 .hero {
+    padding-top: 72px;
+    padding-bottom: 144px;
+}
+
+.hero__flex {
     display: flex;
 }
 
@@ -35,13 +40,18 @@ color: var(--color-white);
 
 .hero__img {
     width: 644px;
-height: 580px;
+    margin-left: 50px;
 }
 
 /* POPULAR */
 
-.popular__top-part {
+.popular {
+    padding-bottom: 184px;
+}
+
+.popular__top {
     display: flex;
+    align-items: center;
 }
 
 .popular__headline {
@@ -62,6 +72,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 150%;
 color: var(--color-white);
+margin-left: auto
 }
 
 /* popular li */
@@ -112,23 +123,27 @@ padding: 6px;
 
 .popular__arrows {
     display: flex;
+    justify-content: flex-end;
 }
 
-.popular__left-arrow {
+.popular__leftArrow {
     border: 1px solid var(--color-scheme-1-border);
 border-radius: 8px;
 padding: 12px;
 }
 
-.popular__right-arrow {
+.popular__rightArrow {
     border: 1px solid var(--color-scheme-1-border);
 border-radius: 8px;
 padding: 12px;
 }
 
 /* ECO */
-
 .eco {
+    padding-bottom: 183px;
+}
+
+.eco__flex {
     display: flex;
 }
 
@@ -139,6 +154,7 @@ font-size: 52px;
 line-height: 120%;
 letter-spacing: -0.01em;
 color: var(--color-scheme-2-text);
+margin-bottom: 47px;
 }
 
 .eco__info {
@@ -147,13 +163,16 @@ font-weight: 400;
 font-size: 20px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
+
 }
 
-.eco__text-box {
+.eco__textBox {
     display: flex;
+    gap: 44px;
+    margin-top: 61px;
 }
 
-.eco__left-headline {
+.eco__boxHeadline {
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 26px;
@@ -162,41 +181,30 @@ letter-spacing: -0.01em;
 color: var(--color-scheme-2-text);
 }
 
-.eco__left-text {
+.eco__boxText {
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
-}
 
-.eco__right-headline {
-    font-family: var(--font-family);
-font-weight: 700;
-font-size: 26px;
-line-height: 140%;
-letter-spacing: -0.01em;
-color: var(--color-scheme-2-text);
-}
-
-.eco__right-text {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: var(--color-scheme-2-text);
 }
 
 .eco__img {
     border-radius: 12px;
 width: 644px;
-height: 686px;
+margin-left: 39px;
 }
 
 /* TRAVELLERS */
 
-.travellers__top-part {
+.travellers {
+    padding-bottom: 120px;
+}
+
+.travellers__top {
     display: flex;
+    align-items: center;
 }
 
 .travellers__headline {
@@ -208,7 +216,7 @@ letter-spacing: -0.01em;
 color: var(--color-scheme-1-text);
 }
 
-.travellers__all-trav {
+.travellers__travs {
     border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
 padding: 6px 12px;
@@ -217,6 +225,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 150%;
 color: var(--color-white);
+margin-left: auto;
 }
 
 /* traveller li */
@@ -254,15 +263,16 @@ color: var(--color-scheme-2-text);
 
 .travellers__arrows {
     display: flex;
+    justify-content: flex-end;
 }
 
-.travellers__left-arrow {
+.travellers__leftArrow {
     border: 1px solid var(--color-scheme-1-border);
 border-radius: 8px;
 padding: 12px;
 }
 
-.travellers__right-arrow {
+.travellers__rightArrow {
     border: 1px solid var(--color-scheme-1-border);
 border-radius: 8px;
 padding: 12px;
@@ -270,30 +280,43 @@ padding: 12px;
 
 /* JOIN US */
 
-.join__us {
+.joinUs {
+    padding-bottom: 48px;
+}
+
+.joinCont {
     background-image: url(./joinus.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 69px;
+    padding-bottom: 61px;
+    padding-left: 65px;
+    border: none;
+    border-radius: 10px;
 }
 
-.join__us__headline {
+.joinUs__headline {
 font-family: var(--font-family);
 font-weight: 700;
 font-size: 48px;
 line-height: 120%;
 letter-spacing: -0.01em;
 color: var(--color-white);
+margin-bottom: 33px;
+width: 767px;
 }
 
-.join__us__info {
+.joinUs__info {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 20px;
 line-height: 150%;
 color: var(--color-white);
+margin-bottom: 35px;
+width: 767px;
 }
 
-.join__us__signup {
+.joinUs__signup {
 border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
 padding: 6px 12px;

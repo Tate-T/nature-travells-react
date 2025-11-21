@@ -43,6 +43,7 @@ export const Footer = () => {
                     <li className={style.footer__section}><a className={style.footer__sectionLink}>Еко-Мандрівники</a></li>
                 </ul>
             </div>
+            <div className={style.line}></div>
             <p className={style.footer__copyright}>© 2025 Природні Мандри. Усі права захищені.</p>
             </Container>
         </footer>
