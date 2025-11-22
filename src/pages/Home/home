@@ -1,25 +1,13 @@
-import { Header } from '../../components/Header/Header.jsx';
-import { Footer } from '../../components/Footer/Footer.jsx';
-import { Container } from "../../components/Container/Container.jsx";
-import style from "./Home.module.css";
-import forest from "./forest.png";
-import forest2 from "./foresttwo.png";
-
-export const Home = () => {
-    return (
-        <div className={style.home}>
-            <Header />
             {/* hero section */}
             <section className={style.hero}>
                 <Container>
                     <div className={style.hero__flex}>
-                        <img className={style.hero__img} src={forest} alt="forest" />
                     <div className={style.hero__leftSide}>
                         <h2 className={style.hero__headline}>Відкрий Україну заново — еко-мандри для натхнення</h2>
                         <p className={style.hero__describtion}>Подорожуй екологічно, відкривай заповідні місця, гори та річки України. Ми зібрали маршрути, які допоможуть побачити красу природи без шкоди для неї.</p>
                         <button className={style.hero__join}> Доєднатись до мандрів</button>
                     </div>
-                    
+                    <img className={style.hero__img} src={forest} alt="forest" />
                 </div>
                 </Container>
             </section>
@@ -60,10 +48,9 @@ export const Home = () => {
                             </svg>
                         </button>
                     </div>
-                <button className={style.popular__articlesMobile}>Всі статті</button>
                 </Container>
             </section>
-            
+
             {/* eco section */}
 
             <section className={style.eco}>
@@ -88,15 +75,15 @@ export const Home = () => {
                 </div>
                 </Container>
 
-{/* our travellers section */}
+            </section>
+
+            {/* our travellers section */}
 
             <section className={style.travellers}>
                 <Container>
                     <div className={style.travellers__top}>
                         <h2 className={style.travellers__headline}>Наші Мандрівники</h2>
                         <button className={style.travellers__travs}>Всі мандрівники</button>
-                    </div>
-                    <div className={style.travellers__top}>
                     </div>
                     <ul>
                         {/* <li className={style.travellers__}>
@@ -121,12 +108,18 @@ export const Home = () => {
                             </svg>
                         </button>
                     </div>
-                <button className={style.travellers__articlesMobile}>Всі статті</button>
                 </Container>
             </section>
 
-            </section>
-        </div>
-    )
-}
+            {/* join us section */}
 
+            <section className={style.joinUs}>
+                <Container>
+                    <div className={style.joinCont}>
+                    <h2 className={style.joinUs__headline}>Приєднуйся до спільноти свідомих мандрівників</h2>
+                    <p className={style.joinUs__info}>Стань частиною ком’юніті, де подорожі стають не лише пригодою, а й внеском у збереження природи. Тут ти знайдеш однодумців, поради для сталих мандрів та натхнення для нових маршрутів Україною.</p>
+                    <button className={style.joinUs__signup}>Зареєструватися</button>
+                </div>
+                </Container>
+            </section>
+            <Footer />
