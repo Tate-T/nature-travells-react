@@ -14,7 +14,7 @@ export const NewStory = () => {
                     <p className={style.newStory__text}>Обкладинка статті</p>
                     <img className={style.newStory__photo} src={placeholder} alt="Image" />
                     <button className={style.newStory__download}>Завантажити фото</button>
-
+                    <input type="file" id="imageInput" accept="image/*" className={style.file}></input>
                     <form className={style.newStory__section__form} action="">
                         <p className={style.newStory__formText}>Загаловок</p>
                         <input className={style.newStory__formInp} type="text" placeholder='Введіть заголовок історії' />

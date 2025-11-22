@@ -1,3 +1,8 @@
+.story__article {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
 .story__articleFlex {
     display: flex;
     justify-content: center;
@@ -6,10 +11,18 @@
 .story__return {
     display: flex;
     align-items: center;
+    background-color: transparent;
+    border: none;
+    
 }
 
 .story__returnText {
     font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: var(--color-neutral-darkest);
+font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;
 line-height: 150%;
@@ -23,6 +36,8 @@ font-size: 56px;
 line-height: 110%;
 letter-spacing: -0.01em;
 color: var(--color-scheme-2-text);
+margin-top: 24px;
+margin-bottom: 24px;
 }
 
 .story__authorName {
@@ -31,6 +46,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
+margin-bottom: 8px;
 }
 
 .name {
@@ -47,6 +63,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
+margin-bottom: 8px;
 }
 
 .date {
@@ -81,6 +98,10 @@ font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
     width: 865px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    margin-bottom: 24px;
 }
 
 .story__articleSave {
@@ -97,6 +118,7 @@ font-size: 26px;
 line-height: 140%;
 letter-spacing: -0.01em;
 color: var(--color-scheme-1-text);
+margin-bottom: 16px;
 }
 
 .story__saveInfo {
@@ -105,6 +127,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-1-text);
+margin-bottom: 16px;
 }
 
 .story__saveBtn {
@@ -117,6 +140,10 @@ border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
 padding: 6px 12px;
 background: var(--color-mantis-dark);
+}
+
+.story__recommended {
+    padding-top: 72px;
 }
 
 .story__recommendedHeadline {

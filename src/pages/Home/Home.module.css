@@ -35,7 +35,7 @@ font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;
 line-height: 150%;
-color: var(--color-white);
+color: #FFF;
 }
 
 .hero__img {
@@ -71,7 +71,8 @@ font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;
 line-height: 150%;
-color: var(--color-white);
+color: #FFF;
+background: var(--color-mantis-dark);
 margin-left: auto
 }
 
@@ -117,7 +118,7 @@ padding: 6px;
 
 /* popular li end */
 
-.popular__articles {
+.popular__articlesList {
     display: flex;
 }
 
@@ -224,8 +225,9 @@ padding: 6px 12px;
 font-weight: 500;
 font-size: 20px;
 line-height: 150%;
-color: var(--color-white);
+color: #FFF;
 margin-left: auto;
+background: var(--color-mantis-dark);
 }
 
 /* traveller li */
@@ -301,7 +303,7 @@ font-weight: 700;
 font-size: 48px;
 line-height: 120%;
 letter-spacing: -0.01em;
-color: var(--color-white);
+color: #FFF;
 margin-bottom: 33px;
 width: 767px;
 }
@@ -311,7 +313,7 @@ font-family: var(--font-family);
 font-weight: 400;
 font-size: 20px;
 line-height: 150%;
-color: var(--color-white);
+color: #FFF;
 margin-bottom: 35px;
 width: 767px;
 }
@@ -324,5 +326,7 @@ font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;
 line-height: 150%;
-color: var(--color-white);
+color: #FFF;
+background: var(--color-mantis-dark);
 }
+

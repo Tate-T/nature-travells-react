@@ -46,14 +46,3 @@ export const SignIn = () => {
         </div>
     )
 }
-
-
-                        <form className={style.signIn__signupBoxForm} action="">
-                            <p className={style.signIn__formText}>Імʼя та Прізвище*</p>
-                            <input className={style.signIn__formInp} placeholder="Ваше імʼя та прізвище" type="text" />
-                            <p className={style.signIn__formText}>Пошта*</p>
-                            <input className={style.signIn__formInp} placeholder="template@gmail.com" type="text" />
-                            <p className={style.signIn__formText}>Пароль*</p>
-                            <input className={style.signIn__formInp} placeholder="password123" type="text" />
-                            <button className={style.signIn__formSubmit} type="submit">Увійти</button>
-                        </form>

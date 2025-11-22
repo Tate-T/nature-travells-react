@@ -31,7 +31,7 @@ export const Home = () => {
                         <h2 className={style.popular__headline}>Популярні статті</h2>
                         <button className={style.popular__articles}>Всі статті</button>
                     </div>
-                    <ul className={style.popular__articles}>
+                    <ul className={style.popular__articlesList}>
                         {/* <li className={style.popular__}>
                         <img className={style.popular__} src="" alt="" />
                         <div className={style.popular__}>

@@ -10,7 +10,9 @@ color: var(--color-scheme-1-text);
 
 .stories__sectionBtnList {
     display: flex;
-    gap: 8px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
 }
 
 .stories__itemBtn {
@@ -19,6 +21,15 @@ font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
+background-color: transparent;
+border: none;
+border-radius: 8px;
+padding: 6px 12px;
+}
+
+.selected {
+    border: 1px solid var(--opacity-transparent);
+background: var(--color-scheme-1-foreground);
 }
 
 .stories__sectionList {
@@ -37,6 +48,10 @@ color: var(--color-white);
 border-radius: 6px;
 padding: 6px 12px;
 background: var(--color-mantis-dark);
+display: block;
+margin-top: 40px;
+margin-right: auto;
+margin-left: auto;
 }
 
 /* stories li */

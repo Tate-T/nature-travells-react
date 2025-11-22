@@ -101,5 +101,8 @@ color: var(--color-white);
 border-radius: 6px;
 padding: 6px 12px;
 background: var(--color-mantis-dark);
+display: block;
 margin-top: 40px;
+margin-right: auto;
+margin-left: auto;
 }

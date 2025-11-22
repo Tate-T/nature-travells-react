@@ -2,6 +2,11 @@
     display: flex;
 }
 
+.signIn__section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 .signIn__logo {
     display: flex;
     align-items: center;
@@ -27,15 +32,23 @@ font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-1-text);
-    padding: 12px 24px;
+    width: 322px;
+    height: 49px;
+    border: none;
     background-color: transparent;
+        
+}
+
+.deOne {
+      box-shadow: 0 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .signIn__btn:hover {
-    border: 1px solid var(--color-scheme-1-border);
+      box-shadow: 0 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.signIn__boxLog {
+
+.signIn__signupBoxLog {
 font-family: var(--font-family);
 font-weight: 700;
 font-size: 52px;
@@ -43,15 +56,25 @@ line-height: 120%;
 letter-spacing: -0.01em;
 text-align: center;
 color: var(--color-scheme-1-text);
+margin-top: 32px;
+margin-bottom: 24px;
 }
 
-.signIn__boxText {
+.signIn__signupBoxText {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 20px;
 line-height: 150%;
 text-align: center;
 color: var(--color-scheme-1-text);
+margin-bottom: 32px;
+}
+
+.signIn__signupBoxForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .signIn__formText {
@@ -60,6 +83,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-1-text);
+margin-bottom: 8px;
 }
 
 .signIn__formInp {
@@ -68,6 +92,7 @@ border-radius: 6px;
 padding: 8px;
 width: 644px;
 background-color: transparent;
+margin-bottom: 24px;
 }
 
 .signIn__formInp::placeholder {
@@ -97,4 +122,9 @@ font-size: 16px;
 line-height: 150%;
 text-align: center;
 color: var(--color-scheme-1-text);
+}
+
+.signIn__footer {
+    padding-top: 26px;
+    padding-bottom: 26px;
 }
