@@ -12,14 +12,24 @@ export const NewStory = () => {
                 <Container>
                     <h2 className={style.newStory__headline}>Створити нову історію</h2>
                     <p className={style.newStory__text}>Обкладинка статті</p>
+
                     <img className={style.newStory__photo} src={placeholder} alt="Image" />
+
                     <button className={style.newStory__download}>Завантажити фото</button>
+                    
                     <input type="file" id="imageInput" accept="image/*" className={style.file}></input>
                     <form className={style.newStory__section__form} action="">
                         <p className={style.newStory__formText}>Загаловок</p>
                         <input className={style.newStory__formInp} type="text" placeholder='Введіть заголовок історії' />
                         <p className={style.newStory__formText}>Категорія</p>
-                        <input className={style.newStory__formInp} type="text" placeholder='Категорія' />
+                    <select name="" className={style.newStory__formDropdownMobile}>
+                        <option value="stories">Всі статті</option>
+                        <option value="ways">Маршрути</option>
+                        <option value="ecotips">Еко-поради</option>
+                        <option value="nature">Природа</option>
+                        <option value="culture">Культура</option>
+                        <option value="localproducts">Локальні продукти</option>
+                    </select>
                         <p className={style.newStory__formText}>Текст історії</p>
                         <input className={style.newStory__bigFormInp} type="text" placeholder='Ваша історія тут' />
                         <div className={style.newStory__buttons}>

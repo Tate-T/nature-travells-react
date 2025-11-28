@@ -16,6 +16,7 @@ export const Traveller = () => {
                             <p className={style.traveller__profInfoCount}></p>
                         </div>
                     </div>
+                    <div className={style.travellers__sectionFlex}>
                     <h2 className={style.traveller__sectionTravArticles}>Статті Мандрівника</h2>
                     <ul className={style.traveller__sectionList}>
                         {/* <li>
@@ -33,6 +34,7 @@ export const Traveller = () => {
                     </li>
                     li template */}
                     </ul>
+                    </div>
                     <button className={style.traveller__loadMore}>Показати ще</button>
                 </Container>
 

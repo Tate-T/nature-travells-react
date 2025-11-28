@@ -10,6 +10,15 @@ export const Stories = () => {
             <section className={style.stories__section}>
                 <Container>
                     <h1 className={style.stories__sectionHeadline}>Статті</h1>
+                    <h3 className={style.stories__sectionCategories}>Категорії</h3>
+                    <select name="" className={style.stories__sectionDropdownMobile}>
+                        <option value="stories">Всі статті</option>
+                        <option value="ways">Маршрути</option>
+                        <option value="ecotips">Еко-поради</option>
+                        <option value="nature">Природа</option>
+                        <option value="culture">Культура</option>
+                        <option value="localproducts">Локальні продукти</option>
+                    </select>
                     <ul className={style.stories__sectionBtnList}>
                         <li className={style.stories__Item}><button className={style.stories__itemBtn}>Всі статті</button></li>
                         <li className={style.stories__Item}><button className={style.stories__itemBtn}>Маршрути</button></li>

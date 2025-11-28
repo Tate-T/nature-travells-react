@@ -12,6 +12,24 @@
     border-radius: 100%;
 }
 
+.travellers__sectionFlex {
+    display: flex;
+    flex-direction: column-reverse;
+
+            @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+flex-direction: column;
+        }
+}
+
 .traveller__profInfoName {
 font-family: var(--font-family);
 font-weight: 700;
@@ -24,6 +42,35 @@ color: var(--color-scheme-2-text);
 .traveller__sectionTravArticles {
         margin-top: 48px;
         margin-bottom: 40px;
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 28px;
+line-height: 120%;
+letter-spacing: -0.01em;
+color: var(--color-scheme-1-text);
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 44px;
+line-height: 120%;
+letter-spacing: -0.01em;
+color: var(--color-scheme-1-text);
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 52px;
+line-height: 120%;
+letter-spacing: -0.01em;
+color: var(--color-scheme-1-text);
+        }
 }
 
 .traveller__profInfoCount {
@@ -76,15 +123,28 @@ color: var(--color-scheme-2-text);
 .traveller__loadMore {
     font-family: var(--font-family);
 font-weight: 500;
-font-size: 20px;
+font-size: 16px;
 line-height: 150%;
 color: var(--color-white);
     border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
-padding: 6px 12px;
+padding: 6px 100px;
 background: var(--color-mantis-dark);
 display: block;
 margin-top: 40px;
 margin-right: auto;
 margin-left: auto;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+padding: 6px 12px;
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 20px;
+        }
 }

@@ -6,6 +6,20 @@
 .story__articleFlex {
     display: flex;
     justify-content: center;
+    flex-direction: column-reverse;
+
+            @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+flex-direction: row;
+        }
 }
 
 .story__return {
@@ -19,25 +33,46 @@
 .story__returnText {
     font-family: var(--font-family);
 font-weight: 500;
-font-size: 20px;
+font-size: 16px;
 line-height: 150%;
 color: var(--color-neutral-darkest);
-font-family: var(--font-family);
-font-weight: 500;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
 font-size: 20px;
-line-height: 150%;
-color: var(--color-neutral-darkest);
+        }
 }
 
 .story__infoHeadline {
     font-family: var(--font-family);
 font-weight: 700;
-font-size: 56px;
+
 line-height: 110%;
 letter-spacing: -0.01em;
 color: var(--color-scheme-2-text);
 margin-top: 24px;
 margin-bottom: 24px;
+font-size: 32px;
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+font-size: 48px;
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 56px;
+        }
 }
 
 .story__authorName {
@@ -47,6 +82,19 @@ font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
 margin-bottom: 8px;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+
+        }
 }
 
 .name {
@@ -55,53 +103,140 @@ font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+
+        }
 }
 
 .story__authorDate {
 font-family: var(--font-family);
 font-weight: 700;
-font-size: 18px;
+
+font-size: 16px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
 margin-bottom: 8px;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 18px;
+        }
 }
 
 .date {
     font-family: var(--font-family);
 font-weight: 400;
-font-size: 18px;
+
+font-size: 16px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 18px;
+        }
 }
 
 .story__authorLocation {
     font-family: var(--font-family);
 font-weight: 600;
-font-size: 16px;
+margin-bottom: 32px;
+font-size: 12px;
 line-height: 150%;
 color: var(--color-neutral-darkest);
 border: 1px solid var(--opacity-transparent);
 border-radius: 6px;
 padding: 4px 10px;
 background: var(--opacity-neutral-darkest-5);
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 16px;
+margin-bottom: 0px;
+        }
 }
 
 .story__articleImg {
-    width: 755px;
+margin-bottom: 24px;
+    width: 335px;
 border-radius: 24px;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+width: 704px;
+        }
+    
+        @media screen and (min-width: 1264px) {
+            margin-bottom: 0px;
+    width: 755px;
+        }
 }
 
 .story__articleDescribtion {
     font-family: var(--font-family);
 font-weight: 400;
-font-size: 18px;
+
+font-size: 16px;
 line-height: 150%;
 color: var(--color-scheme-2-text);
-    width: 865px;
-    margin-left: auto;
-    margin-right: auto;
+width: 335px;
+
     margin-top: 48px;
     margin-bottom: 24px;
+
+            @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+width: 704px;
+        }
+    
+        @media screen and (min-width: 1264px) {
+    width: 865px;
+    font-size: 18px;
+        margin-left: auto;
+    margin-right: auto;
+        }
 }
 
 .story__articleSave {
@@ -114,32 +249,74 @@ background: var(--color-scheme-2-foreground);
 .story__saveText {
 font-family: var(--font-family);
 font-weight: 700;
-font-size: 26px;
+font-size: 18px;
 line-height: 140%;
 letter-spacing: -0.01em;
 color: var(--color-scheme-1-text);
 margin-bottom: 16px;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 26px;
+        }
 }
 
 .story__saveInfo {
 font-family: var(--font-family);
 font-weight: 400;
-font-size: 18px;
+font-size: 16px;
+
 line-height: 150%;
 color: var(--color-scheme-1-text);
 margin-bottom: 16px;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 18px;
+        }
 }
 
 .story__saveBtn {
     font-family: var(--font-family);
 font-weight: 500;
-font-size: 20px;
+font-size: 16px;
+padding: 6px 100px;
 line-height: 150%;
 color: var(--color-white);
 border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
-padding: 6px 12px;
+
 background: var(--color-mantis-dark);
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+            padding: 6px 12px;
+        }
+    
+        @media screen and (min-width: 1264px) {
+            padding: 6px 12px;
+font-size: 20px;
+        }
 }
 
 .story__recommended {
@@ -149,10 +326,24 @@ background: var(--color-mantis-dark);
 .story__recommendedHeadline {
     font-family: var(--font-family);
 font-weight: 700;
-font-size: 52px;
+
+font-size: 28px;
 line-height: 120%;
 letter-spacing: -0.01em;
 color: var(--color-scheme-1-text);
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+font-size: 44px;
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 52px;
+        }
 }
 
 /* traveller li */

@@ -13,14 +13,14 @@ export const App = () => {
   return (
     <div className='App'>
       <Home/>
-      {/* <NewStory/>
-      <Profile/>
+      <Stories/>
       <Travellers/>
       <Traveller/>
-      <Stories/>
+      <Profile/>
+      <NewStory/>
       <Story/>
       <LogIn/>
-      <SignIn/> */}
+      <SignIn/>
     </div>
   )
 }

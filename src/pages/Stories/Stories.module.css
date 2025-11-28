@@ -1,3 +1,20 @@
+.stories__section {
+    padding-top: 32px;
+
+            @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+padding-top: 0px;
+        }
+}
+
 .stories__sectionHeadline {
     font-family: var(--font-family);
 font-weight: 700;
@@ -8,23 +25,95 @@ text-align: center;
 color: var(--color-scheme-1-text);
 }
 
+.stories__sectionCategories {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--color-scheme-1-text);
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+display: none;
+        }
+    
+        @media screen and (min-width: 1264px) {
+
+        }
+}
+
+.stories__sectionDropdownMobile {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--color-scheme-2-text);
+border: 1px solid var(--opacity-neutral-darkest-15);
+border-radius: 6px;
+padding: 8px;
+width: 100%;
+margin-top: 8px;
+
+            @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+            display: none;
+        }
+    
+        @media screen and (min-width: 1264px) {
+
+        }
+}
+
 .stories__sectionBtnList {
+display: none;
+
+            @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
     display: flex;
+        }
+    
+        @media screen and (min-width: 1264px) {
+
     margin-top: 40px;
     margin-bottom: 40px;
     justify-content: center;
+        }
 }
 
 .stories__itemBtn {
     font-family: var(--font-family);
 font-weight: 400;
-font-size: 18px;
+
 line-height: 150%;
 color: var(--color-scheme-2-text);
 background-color: transparent;
 border: none;
 border-radius: 8px;
 padding: 6px 12px;
+font-size: 16px;
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 18px;
+        }
 }
 
 .selected {
@@ -41,17 +130,30 @@ background: var(--color-scheme-1-foreground);
 .stories__loadMore {
     font-family: var(--font-family);
 font-weight: 500;
-font-size: 20px;
+font-size: 16px;
 line-height: 150%;
 color: var(--color-white);
     border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
-padding: 6px 12px;
+padding: 6px 100px;
 background: var(--color-mantis-dark);
 display: block;
 margin-top: 40px;
 margin-right: auto;
 margin-left: auto;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+padding: 6px 12px;
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 20px;
+        }
 }
 
 /* stories li */

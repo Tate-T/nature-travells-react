@@ -94,15 +94,28 @@ color: var(--color-scheme-2-text);
 .profile__loadMore {
     font-family: var(--font-family);
 font-weight: 500;
-font-size: 20px;
+font-size: 16px;
 line-height: 150%;
 color: var(--color-white);
     border: 1px solid var(--color-mantis-dark);
 border-radius: 6px;
-padding: 6px 12px;
+padding: 6px 100px;
 background: var(--color-mantis-dark);
 display: block;
 margin-top: 40px;
 margin-right: auto;
 margin-left: auto;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+padding: 6px 12px;
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 20px;
+        }
 }

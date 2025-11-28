@@ -87,7 +87,7 @@ export const Home = () => {
                     <img className={style.eco__img} src={forest2} alt="" />
                 </div>
                 </Container>
-
+</section>
 {/* our travellers section */}
 
             <section className={style.travellers}>
@@ -125,7 +125,19 @@ export const Home = () => {
                 </Container>
             </section>
 
+                        {/* join us section */}
+
+            <section className={style.joinUs}>
+                <Container>
+                    <div className={style.joinCont}>
+                    <h2 className={style.joinUs__headline}>Приєднуйся до спільноти свідомих мандрівників</h2>
+                    <p className={style.joinUs__info}>Стань частиною ком’юніті, де подорожі стають не лише пригодою, а й внеском у збереження природи. Тут ти знайдеш однодумців, поради для сталих мандрів та натхнення для нових маршрутів Україною.</p>
+                    <button className={style.joinUs__signup}>Зареєструватися</button>
+                </div>
+                </Container>
             </section>
+
+            <Footer />
         </div>
     )
 }
