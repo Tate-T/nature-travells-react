@@ -2,7 +2,7 @@
   "name": "nature-travells-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://tate-t.github.io/nature-travells-react/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
