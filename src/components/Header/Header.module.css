@@ -20,6 +20,10 @@
 display: flex;
 }
 
+.header__menuSvg {
+    display: inline;
+}
+
 .header__navLogo {
     display: flex;
     align-items: center;
