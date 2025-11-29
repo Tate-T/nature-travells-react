@@ -23,7 +23,7 @@ export const SignIn = () => {
                     </div>
                     <div className={style.signIn__sectionSignupBox}>
                         <h2 className={style.signIn__signupBoxLog}>Реєстрація</h2>
-                        <p className={style.signIn__signupBoxText}>Вітаємо знову у спільноту мандрівників!</p>
+                        <p className={style.signIn__signupBoxText}>Раді вас бачити у спільноті мандрівників!</p>
 
                         <form className={style.signIn__signupBoxForm} action="">
                             <p className={style.signIn__formText}>Імʼя та Прізвище*</p>

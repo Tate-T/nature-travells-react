@@ -1,4 +1,5 @@
 import './App.css';
+import './reset.css';
 import {Home} from './pages/Home/Home.jsx';
 import {LogIn} from './pages/LogIn/LogIn.jsx';
 import {NewStory} from './pages/NewStory/NewStory.jsx';

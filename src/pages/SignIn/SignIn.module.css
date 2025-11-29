@@ -51,23 +51,49 @@ color: var(--color-scheme-1-text);
 .signIn__signupBoxLog {
 font-family: var(--font-family);
 font-weight: 700;
-font-size: 52px;
+font-size: 28px;
 line-height: 120%;
 letter-spacing: -0.01em;
 text-align: center;
 color: var(--color-scheme-1-text);
 margin-top: 32px;
 margin-bottom: 24px;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+font-size: 44px;
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 52px;
+        }
 }
 
 .signIn__signupBoxText {
 font-family: var(--font-family);
 font-weight: 400;
-font-size: 20px;
+font-size: 16px;
 line-height: 150%;
 text-align: center;
 color: var(--color-scheme-1-text);
 margin-bottom: 32px;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 20px;
+        }
 }
 
 .signIn__signupBoxForm {
@@ -80,10 +106,23 @@ margin-bottom: 32px;
 .signIn__formText {
     font-family: var(--font-family);
 font-weight: 400;
-font-size: 18px;
+font-size: 16px;
 line-height: 150%;
 color: var(--color-scheme-1-text);
 margin-bottom: 8px;
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 18px;
+        }
 }
 
 .signIn__formInp {
@@ -98,9 +137,22 @@ margin-bottom: 24px;
 .signIn__formInp::placeholder {
     font-family: var(--font-family);
 font-weight: 400;
-font-size: 18px;
+font-size: 16px;
 line-height: 150%;
 color: var(--opacity-neutral-darkest-60);
+
+        @media screen and (min-width: 335px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 704px) {
+
+        }
+    
+        @media screen and (min-width: 1264px) {
+font-size: 18px;
+        }
 }
 
 .signIn__formSubmit {
@@ -110,9 +162,20 @@ padding: 6px 12px;
 background: var(--color-mantis-dark);
 font-family: var(--font-family);
 font-weight: 500;
-font-size: 20px;
+font-size: 16x;
 line-height: 150%;
 color: var(--color-white);
+    width: 100%;
+
+    @media screen and (min-width: 335px) {}
+
+
+    @media screen and (min-width: 704px) {}
+
+    @media screen and (min-width: 1264px) {
+        font-size: 20px;
+        width: auto;
+    }
 }
 
 .signIn__copyright {
