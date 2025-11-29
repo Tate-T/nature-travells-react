@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/nature-travells-react/static/css/main.ec97fbfc.css",
-    "main.js": "/nature-travells-react/static/js/main.1398b3a9.js",
+    "main.css": "/nature-travells-react/static/css/main.78e9a60c.css",
+    "main.js": "/nature-travells-react/static/js/main.59cfb379.js",
     "static/media/foresttwo.png": "/nature-travells-react/static/media/foresttwo.bcf0d4735076286b2c7f.png",
     "static/media/forest.png": "/nature-travells-react/static/media/forest.e8009e5033671000454e.png",
     "static/media/test.png": "/nature-travells-react/static/media/test.8183c1cbe5a4d6bf132d.png",
     "static/media/joinus.png": "/nature-travells-react/static/media/joinus.31769517b780f0dd51aa.png",
     "static/media/placeholder.png": "/nature-travells-react/static/media/placeholder.e0c646d4e67763f42e6c.png",
     "index.html": "/nature-travells-react/index.html",
-    "main.ec97fbfc.css.map": "/nature-travells-react/static/css/main.ec97fbfc.css.map",
-    "main.1398b3a9.js.map": "/nature-travells-react/static/js/main.1398b3a9.js.map"
+    "main.78e9a60c.css.map": "/nature-travells-react/static/css/main.78e9a60c.css.map",
+    "main.59cfb379.js.map": "/nature-travells-react/static/js/main.59cfb379.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec97fbfc.css",
-    "static/js/main.1398b3a9.js"
+    "static/css/main.78e9a60c.css",
+    "static/js/main.59cfb379.js"
   ]
 }
