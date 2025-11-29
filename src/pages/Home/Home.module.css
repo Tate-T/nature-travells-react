@@ -717,7 +717,7 @@ line-height: 120%;
 letter-spacing: -0.01em;
 color: #FFF;
 margin-bottom: 24px;
-width: 303px;
+width: 100%;
 
 
         @media screen and (min-width: 335px) {
@@ -727,12 +727,12 @@ width: 303px;
     
         @media screen and (min-width: 704px) {
 font-size: 32px;
-width: 760px;
+width: 100%;
         }
     
         @media screen and (min-width: 1264px) {
 font-size: 48px;
-width: 767px;
+width: 100%;
 margin-bottom: 33px;
         }
 }
@@ -741,7 +741,7 @@ margin-bottom: 33px;
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
-width: 303px;
+width: 100%;
 line-height: 150%;
 color: #FFF;
 margin-bottom: 32px;
@@ -754,12 +754,12 @@ margin-bottom: 32px;
     
     
         @media screen and (min-width: 704px) {
-width: 600px;
+width: 100%;
         }
     
         @media screen and (min-width: 1264px) {
 font-size: 20px;
-width: 767px;
+width: 100%;
 margin-bottom: 35px;
         }
 }
