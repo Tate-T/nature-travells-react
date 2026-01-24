@@ -2,9 +2,22 @@ import { Header } from '../../components/Header/Header.jsx';
 import { Footer } from '../../components/Footer/Footer.jsx';
 import { Container } from "../../components/Container/Container.jsx";
 import style from "./Stories.module.css";
+import { Component } from 'react';
 
-export const Stories = () => {
-    return (
+export class Stories extends Component {
+
+    state = {
+        stories: [
+            
+        ]
+    }
+
+    componentDidMount() {
+        fetch("https://69749e44265838bbea956cab.mockapi.io/articles")
+    }
+
+    render() {
+        return (
         <div className={style.stories}>
             <Header />
             <section className={style.stories__section}>
@@ -50,4 +63,5 @@ export const Stories = () => {
             <Footer />
         </div>
     )
+    }
 }
