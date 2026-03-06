@@ -49,12 +49,12 @@ export class Stories extends Component {
                         <li className={style.stories__Item}><button className={style.stories__itemBtn}>Локальні продукти</button></li>
                     </ul>
                     <ul className={style.stories__sectionList}>
-                        {this.state.stories.map((item) => {
+                        {this.state.stories.map(story => {
                             return                         <li className={style.stories__SectionItem}>
-                        <img className={style.stories__SectionImg} src={item.img} alt={item.title} />
+                        <img className={style.stories__SectionImg} src={story.img} alt={story.title} />
                         <div className={style.stories__SectionBottom}>
-                            <p className={style.stories__SectionOwner}>{item.ownerId.$oid}</p>
-                            <h3 className={style.stories__SectionTitle}>{item.title}</h3>
+                            <p className={style.stories__SectionOwner}>{story.ownerId.$oid}</p>
+                            <h3 className={style.stories__SectionTitle}>{story.title}</h3>
                             <button className={style.stories__SectionView}>Переглянути статтю</button>
                             <button className={style.stories__SectionSave}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

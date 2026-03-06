@@ -24,6 +24,7 @@ font-size: 56px;
 
 .travellers__sectionList {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 4px;
 }
