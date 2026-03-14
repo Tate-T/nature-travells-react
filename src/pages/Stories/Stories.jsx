@@ -2,30 +2,98 @@ import { Header } from '../../components/Header/Header.jsx';
 import { Footer } from '../../components/Footer/Footer.jsx';
 import { Container } from "../../components/Container/Container.jsx";
 import style from "./Stories.module.css";
-import { Component } from 'react';
+import { useState, useEffect } from 'react';
+import {getAPI} from "../../API/Stories/getAPI.jsx"
 
-export class Stories extends Component {
+// import { Component } from 'react';
 
-    state = {
-        stories: [
-            
-        ]
-    }
+// export class Stories extends Component {
 
-    componentDidMount() {
-        this.getAPI()
-    }
+//     state = {
+//         stories: [
 
-    getAPI = async () => {
-        await fetch("https://69749e44265838bbea956cab.mockapi.io/articles").then((result) => result.json()).then((resultdata) => 
-        this.setState(({
-            stories: resultdata
-        }))
-        )
-    }
+//         ]
+//     }
 
-    render() {
-        return (
+//     componentDidMount() {
+//         this.getAPI()
+//     }
+
+//     getAPI = async () => {
+//         await fetch("https://69749e44265838bbea956cab.mockapi.io/articles").then((result) => result.json()).then((resultdata) =>
+//             this.setState(({
+//                 stories: resultdata
+//             }))
+//         )
+//     }
+
+//     render() {
+//         return (
+//             <div className={style.stories}>
+//                 <Header />
+//                 <section className={style.stories__section}>
+//                     <Container>
+//                         <h1 className={style.stories__sectionHeadline}>Статті</h1>
+//                         <h3 className={style.stories__sectionCategories}>Категорії</h3>
+//                         <select name="" className={style.stories__sectionDropdownMobile}>
+//                             <option value="stories">Всі статті</option>
+//                             <option value="ways">Маршрути</option>
+//                             <option value="ecotips">Еко-поради</option>
+//                             <option value="nature">Природа</option>
+//                             <option value="culture">Культура</option>
+//                             <option value="localproducts">Локальні продукти</option>
+//                         </select>
+//                         <ul className={style.stories__sectionBtnList}>
+//                             <li className={style.stories__Item}><button className={style.stories__itemBtn}>Всі статті</button></li>
+//                             <li className={style.stories__Item}><button className={style.stories__itemBtn}>Маршрути</button></li>
+//                             <li className={style.stories__Item}><button className={style.stories__itemBtn}>Еко-поради</button></li>
+//                             <li className={style.stories__Item}><button className={style.stories__itemBtn}>Природа</button></li>
+//                             <li className={style.stories__Item}><button className={style.stories__itemBtn}>Культура</button></li>
+//                             <li className={style.stories__Item}><button className={style.stories__itemBtn}>Локальні продукти</button></li>
+//                         </ul>
+//                         <ul className={style.stories__sectionList}>
+//                             {this.state.stories.map(story => {
+//                                 return <li className={style.stories__SectionItem}>
+//                                     <img className={style.stories__SectionImg} src={story.img} alt={story.title} />
+//                                     <div className={style.stories__SectionBottom}>
+//                                         <p className={style.stories__SectionOwner}>{story.ownerId.$oid}</p>
+//                                         <h3 className={style.stories__SectionTitle}>{story.title}</h3>
+//                                         <button className={style.stories__SectionView}>Переглянути статтю</button>
+//                                         <button className={style.stories__SectionSave}>
+//                                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+//                                                 <path d="M12.6666 18.5007L7.89809 20.5407C7.33042 20.7854 6.79167 20.7395 6.28184 20.403C5.77201 20.0665 5.51709 19.5903 5.51709 18.9745V4.76198C5.51709 4.30032 5.68601 3.90007 6.02384 3.56123C6.36151 3.22223 6.76034 3.05273 7.22034 3.05273H18.1128C18.5745 3.05273 18.9748 3.22223 19.3136 3.56123C19.6526 3.90007 19.8221 4.30032 19.8221 4.76198V18.9745C19.8221 19.5903 19.5662 20.0665 19.0543 20.403C18.5425 20.7395 18.0028 20.7854 17.4351 20.5407L12.6666 18.5007ZM12.6666 16.6785L18.1128 18.9745V4.76198H7.22034V18.9745L12.6666 16.6785ZM12.6666 4.76198H7.22034H18.1128H12.6666Z" fill="black" />
+//                                             </svg>
+//                                         </button>
+//                                     </div>
+//                                 </li>
+//                             })}
+
+//                         </ul>
+//                         <button className={style.stories__loadMore}>Показати ще</button>
+//                     </Container>
+
+//                 </section>
+//                 <Footer />
+//             </div>
+//         )
+//     }
+// }
+
+export const Stories = () => {
+    const [stories, setStories] = useState([])
+
+    useEffect(() => {
+        getAPI().then((resultdata) => setStories(resultdata))
+    }, [])
+
+
+    // getAPI = async () => {
+    //     await fetch("https://69749e44265838bbea956cab.mockapi.io/articles").then((result) => result.json()).then((resultdata) =>
+    //         setStories([resultdata])
+    //     )
+    // }
+    console.log(stories)
+    return (
         <div className={style.stories}>
             <Header />
             <section className={style.stories__section}>
@@ -49,22 +117,22 @@ export class Stories extends Component {
                         <li className={style.stories__Item}><button className={style.stories__itemBtn}>Локальні продукти</button></li>
                     </ul>
                     <ul className={style.stories__sectionList}>
-                        {this.state.stories.map(story => {
-                            return                         <li className={style.stories__SectionItem}>
-                        <img className={style.stories__SectionImg} src={story.img} alt={story.title} />
-                        <div className={style.stories__SectionBottom}>
-                            <p className={style.stories__SectionOwner}>{story.ownerId.$oid}</p>
-                            <h3 className={style.stories__SectionTitle}>{story.title}</h3>
-                            <button className={style.stories__SectionView}>Переглянути статтю</button>
-                            <button className={style.stories__SectionSave}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-  <path d="M12.6666 18.5007L7.89809 20.5407C7.33042 20.7854 6.79167 20.7395 6.28184 20.403C5.77201 20.0665 5.51709 19.5903 5.51709 18.9745V4.76198C5.51709 4.30032 5.68601 3.90007 6.02384 3.56123C6.36151 3.22223 6.76034 3.05273 7.22034 3.05273H18.1128C18.5745 3.05273 18.9748 3.22223 19.3136 3.56123C19.6526 3.90007 19.8221 4.30032 19.8221 4.76198V18.9745C19.8221 19.5903 19.5662 20.0665 19.0543 20.403C18.5425 20.7395 18.0028 20.7854 17.4351 20.5407L12.6666 18.5007ZM12.6666 16.6785L18.1128 18.9745V4.76198H7.22034V18.9745L12.6666 16.6785ZM12.6666 4.76198H7.22034H18.1128H12.6666Z" fill="black"/>
-</svg>
-                            </button>
-                        </div>
-                    </li>
+                        {stories?.map(story => {
+                            return <li className={style.stories__SectionItem}>
+                                <img className={style.stories__SectionImg} src={story.img} alt={story.title} />
+                                <div className={style.stories__SectionBottom}>
+                                    <p className={style.stories__SectionOwner}>{story.ownerId.$oid}</p>
+                                    <h3 className={style.stories__SectionTitle}>{story.title}</h3>
+                                    <button className={style.stories__SectionView}>Переглянути статтю</button>
+                                    <button className={style.stories__SectionSave}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                            <path d="M12.6666 18.5007L7.89809 20.5407C7.33042 20.7854 6.79167 20.7395 6.28184 20.403C5.77201 20.0665 5.51709 19.5903 5.51709 18.9745V4.76198C5.51709 4.30032 5.68601 3.90007 6.02384 3.56123C6.36151 3.22223 6.76034 3.05273 7.22034 3.05273H18.1128C18.5745 3.05273 18.9748 3.22223 19.3136 3.56123C19.6526 3.90007 19.8221 4.30032 19.8221 4.76198V18.9745C19.8221 19.5903 19.5662 20.0665 19.0543 20.403C18.5425 20.7395 18.0028 20.7854 17.4351 20.5407L12.6666 18.5007ZM12.6666 16.6785L18.1128 18.9745V4.76198H7.22034V18.9745L12.6666 16.6785ZM12.6666 4.76198H7.22034H18.1128H12.6666Z" fill="black" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </li>
                         })}
-                    
+
                     </ul>
                     <button className={style.stories__loadMore}>Показати ще</button>
                 </Container>
@@ -73,5 +141,9 @@ export class Stories extends Component {
             <Footer />
         </div>
     )
-    }
 }
+
+
+// [] compdidmount
+
+// [value like if value will update] compdidupdt
